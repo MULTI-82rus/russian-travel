@@ -1,0 +1,9 @@
+.header {
+  padding: 28px 48px 26px;
+  /* margin: 0 avto; */
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  border: 1px solid red;
+}

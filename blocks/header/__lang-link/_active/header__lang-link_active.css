@@ -1,0 +1,5 @@
+.header__lang-link_active {
+  text-decoration-line: underline;
+  /* padding-bottom: 3px; */
+  /* border-bottom: 2px solid #FFFFFF; */
+}
