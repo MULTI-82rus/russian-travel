@@ -1,6 +1,4 @@
-.lead {
+.places {
   padding: 0 148px 92px;
-  display: flex;
-  flex-direction: column;
   border: 1px solid red;
 }
