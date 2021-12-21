@@ -1,0 +1,14 @@
+.cover__background {
+  /* display: block; */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-content: center;
+  width: 100%;
+  min-height: 740px;
+  text-decoration: none;
+  background-image: url('../../../images/__background-do-baikala-na-sobakah.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
