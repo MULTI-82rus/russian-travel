@@ -4,11 +4,21 @@
   flex-direction: column;
   justify-content: center;
   align-content: center;
-  width: 100%;
+  /* width: 100%; */
   min-height: 740px;
   text-decoration: none;
   background-image: url('../../../images/__background-do-baikala-na-sobakah.jpg');
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
+  /* opacity: 1;
+  transition: 0.5s;
+  z-index: 0;
+  position: relative; */
 }
+
+/* .cover__background:hover {
+  opacity: 0.5;
+  transition: 0.5s;
+} */
+
