@@ -1,6 +1,6 @@
 .content__photo-grid {
   margin: 0 auto;
   max-width: 1184px;
-  /* height: 671px; */
+  min-height: 671px;
   /* border: 1px solid red; */
 }

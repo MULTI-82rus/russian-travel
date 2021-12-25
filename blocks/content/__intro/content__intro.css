@@ -1,4 +1,5 @@
 .content__intro {
   margin: 0 auto;
   max-width: 690px;
+  min-height: 429px;
 }
