@@ -1,5 +1,11 @@
 .content__lead {
   margin: 0 auto;
   max-width: 984px;
-  min-height: 1005px;
+  /* min-height: 1005px; */
+}
+
+@media screen and (max-width: 1024px) {
+  .content__lead {
+    max-width: 928px;
+  }
 }

@@ -1,6 +1,12 @@
 .content__places {
   margin: 0 auto;
   max-width: 984px;
-  min-height: 3392px;
+  /* min-height: 3392px; */
   /* border: 1px solid red; */
+}
+
+@media screen and (max-width: 1024px) {
+  .content__places {
+    max-width: 928px;
+  }
 }

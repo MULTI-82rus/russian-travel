@@ -4,3 +4,10 @@
   min-height: 671px;
   /* border: 1px solid red; */
 }
+
+@media screen and (max-width: 1024px) {
+  .content__photo-grid {
+    max-width: 928px;
+    min-height: 942px;
+  }
+}

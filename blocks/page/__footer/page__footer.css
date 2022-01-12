@@ -3,3 +3,9 @@
   max-width: 1184px;
   min-height: 18px;
 }
+
+@media screen and (max-width: 1024px) {
+  .page__footer {
+    max-width: 928px;
+  }
+}
