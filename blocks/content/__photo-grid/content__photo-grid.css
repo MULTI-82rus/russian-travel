@@ -1,13 +1,20 @@
 .content__photo-grid {
   margin: 0 auto;
   max-width: 1184px;
-  min-height: 671px;
+  /* min-height: 671px; */
   /* border: 1px solid red; */
 }
 
 @media screen and (max-width: 1024px) {
   .content__photo-grid {
     max-width: 928px;
-    min-height: 942px;
+    /* min-height: 942px; */
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .content__photo-grid {
+    max-width: 720px;
+    /* min-height: 1664px; */
   }
 }

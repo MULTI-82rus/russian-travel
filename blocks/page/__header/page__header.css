@@ -4,3 +4,15 @@
   /* min-width: 320px; */
   /* min-height: 52px; */
 }
+
+@media screen and (max-width: 1024px) {
+  .page__header {
+    max-width: 928px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .page__header {
+    max-width: 720px;
+  }
+}

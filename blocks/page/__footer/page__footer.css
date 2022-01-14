@@ -9,3 +9,9 @@
     max-width: 928px;
   }
 }
+
+@media screen and (max-width: 768px) {
+  .page__footer {
+    max-width: 720px;
+  }
+}

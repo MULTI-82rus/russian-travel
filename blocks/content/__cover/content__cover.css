@@ -1,12 +1,19 @@
 .content__cover {
   margin: 0 auto;
   max-width: 1184px;
-  min-height: 740px;
+  /* min-height: 740px; */
 }
 
 @media screen and (max-width: 1024px) {
   .content__cover {
     max-width: 1024px;
-    min-height: 640px;
+    /* min-height: 640px; */
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .content__cover {
+    max-width: 768px;
+    /* min-height: 480px; */
   }
 }
