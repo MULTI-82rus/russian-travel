@@ -19,3 +19,18 @@
 .footer__link:last-of-type {
   margin-right: 0;
 }
+
+@media screen and (max-width: 320px) {
+  .footer__link {
+    display: block;
+    font-size: 24px;
+    line-height: 100%;
+    margin-right: 0;
+    margin-bottom: 32px;
+    /* padding-right: 0;
+    padding-bottom: 32px; */
+  }
+  .footer__link:last-of-type {
+    margin-bottom: 48px;
+  }
+}
