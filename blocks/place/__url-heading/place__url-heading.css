@@ -7,3 +7,9 @@
   color: #AAAAAA;
   /* border: 1px solid red; */
 }
+
+@media screen and (max-width: 320px) {
+  .place__url-heading {
+    padding-bottom: 12px;
+  }
+}

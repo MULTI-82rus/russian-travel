@@ -3,3 +3,11 @@
   align-self: end;
   justify-self: start;
 }
+
+@media screen and (max-width: 320px) {
+  .place__website {
+    padding-left: 16px;
+    padding-right: 16px;
+    /* padding-bottom: 32px; */
+  }
+}

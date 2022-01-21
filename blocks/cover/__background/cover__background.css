@@ -44,3 +44,14 @@
     min-height: 480px;
   }
 }
+
+@media screen and (max-width: 320px) {
+  .cover__background {
+    max-width: 320px;
+    min-height: 200px;
+  }
+  .cover__background::before {
+    max-width: 320px;
+    min-height: 200px;
+  }
+}
