@@ -11,9 +11,7 @@
 }
 
 .footer__link:hover {
-  opacity: 0.5;
   transition: 0.5s;
-  color: #AAAAAA;
 }
 
 .footer__link:last-of-type {

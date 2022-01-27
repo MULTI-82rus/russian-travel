@@ -2,6 +2,8 @@
   margin: 0 auto 32px;
   padding: 0;
   max-width: 720px;
+  /* display: block; */
+  /* width: 100%; */
   font-weight: 900;
   font-size: 96px;
   line-height: 104%;
@@ -9,6 +11,15 @@
   color: #FFFFFF;
   /* border: 1px solid red; */
 }
+
+/* @media screen and (max-width: 692px) {
+  .lead {
+    max-width: 720px;
+    font-size: 96px;
+    line-height: 104%;
+  }
+} */
+/* сверху добавил для эксперемента перелом на 768 */
 
 @media screen and (max-width: 320px) {
   .lead__title {

@@ -4,7 +4,7 @@
   justify-content: center;
   align-content: center;
   max-width: 1184px;
-  min-height: 640px;
+  min-height: 740px;
   width: 100%;
   height: 100%;
   text-decoration: none;
@@ -19,7 +19,7 @@
 .cover__background::before {
   content: "";
   max-width: 1184px;
-  min-height: 640px;
+  min-height: 740px;
   width: 100%;
   height: 100%;
   position: absolute;
@@ -28,10 +28,19 @@
   background: #2A2C2F;
 }
 
+@media screen and (max-width: 1024px) {
+  .cover__background {
+    max-width: 1024px;
+    min-height: 640px;
+  }
+  .cover__background::before {
+    max-width: 1024px;
+    min-height: 640px;
+  }
+}
+
 .cover__background:hover::before {
   opacity: 0.8;
-  transition: 0.5s;
-  background: #2A2C2F;
 }
 
 @media screen and (max-width: 768px) {
