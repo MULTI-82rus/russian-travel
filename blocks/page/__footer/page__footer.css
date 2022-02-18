@@ -18,6 +18,5 @@
 @media screen and (max-width: 320px) {
   .page__footer {
     max-width: 186px;
-    /* min-height: 310px; */
   }
 }

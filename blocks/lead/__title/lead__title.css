@@ -12,11 +12,16 @@
   /* border: 1px solid red; */
 }
 
-/* @media screen and (max-width: 692px) {
-  .lead {
-    max-width: 720px;
-    font-size: 96px;
-    line-height: 104%;
+/* @media screen and (max-width: 1024px) {
+  .lead__title {
+
+  }
+} */
+
+/* @media screen and (max-width: 768px) {
+  .lead__title {
+    padding-left: 2px;
+    padding-right: 2px;
   }
 } */
 /* сверху добавил для эксперемента перелом на 768 */
